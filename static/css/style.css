@@ -1,0 +1,11 @@
+.nav-link {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+body {
+  background-color: black !important;
+}
