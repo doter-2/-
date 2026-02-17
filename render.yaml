@@ -4,7 +4,7 @@ service:
   runtime: python
   plan: free
   buildCommand: "pip install -r requirments.txt"
-  startCommand: "gunicorn config.wsgi:application"
+  startCommand: "gunicorn blog:.wsvg"
   envVars:
     key: PYTHON_VERSION
     value: 3.15.5
